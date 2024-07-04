@@ -1,0 +1,53 @@
+
+
+.carousel-item img {
+    max-height: 678px ;
+    height: 100%;
+}
+header{
+    background-color:#353434;
+    color: #fff;
+    
+}
+
+.row h2{
+padding: 20px ; 
+
+border-radius: 20px;
+}
+
+.navbar-nav .nav-link{
+    color: #fff;
+}
+
+.container .carousel-fade{
+    margin-top:90px;
+   
+}
+@media screen and (max-width: 767px){
+
+   .row{
+        display: flex;
+        flex-direction: column;
+        
+    
+    .col-4  {
+    
+        width: 100%; 
+        margin-bottom: 1rem;
+    }
+}
+}
+
+@media screen and (min-width:768px ) and (max-width:1024px){
+
+    .row {       
+        display: grid;
+        grid-template-columns: repeat(2,49%);
+        box-sizing: border-box;
+            
+        
+}
+
+
+}

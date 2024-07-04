@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="p-3 fixed-top">
+    <div class="navbar navbar-expand-lg ">
+        <div class="container">
+            <h1>Muniz Automoveis</h1>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu" >
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+            <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="nav navbar-nav nav-pills">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active  ">Em destaque</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link ">Promoções</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    </header>
+
+<div class="container">
+    <div id="carousel-exemplo" class="carousel carousel-fade slide pt-3 " data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <div data-bs-interval="3000" class="carousel-item active">
+                <img class="d-block w-100 " src="./images/2023-bmw-online-store-landing-page-header-mobile.webp" alt="">
+                <div class="carousel-caption">
+                    <h2>BMW</h2>
+                </div>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item ">
+                <img class="d-block w-100 " src="./images/comercio-de-carros-nos-EUA.jpg" alt="">
+                <div class="carousel-caption">
+                    <h2>Carro</h2>
+                </div>
+            </div>
+            <div data-bs-interval="3000" class="carousel-item ">
+                <img class="d-block w-100 " src="./images/SVN_NCAUTO_809221517212292752024-04-12T06_59_031-6.jpg" alt="">
+                <div class="carousel-caption">
+                    <h2>SVN</h2>
+                </div>
+            </div>
+
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="carousel-exemplo" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="carousel-exemplo" data-bs-slide-to="2"></button>
+                </div>
+
+        </div>
+    </div>
+</div>
+
+
+   <div class="container ">
+    
+    <div class="row">
+       <h2>Promoções</h2> 
+
+        
+            <div class="col-4">
+            
+                <div class="card text-bg-dark">
+                    <div class="card-header">
+                        Promoção de carros
+                    </div>
+                    <img src="./images/GRANDE_002282_202407021800391382851788.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Nome do carro</h4>
+                        <h5 class="card-subtitle">Preço do carro</h5>
+                        <p card-text>Desconto</p>
+                        <a href="#" class="btn btn-primary">Compre já</a>
+                    </div>
+                </div> 
+            </div>
+        
+
+        
+            <div class="col-4 ">
+
+                <div class="card  text-bg-dark">
+                    <div class="card-header">
+                        Promoção de carros
+                    </div>
+                    <img src="./images/GRANDE_002284_202406261707121865839171.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Nome do carro</h4>
+                        <h5 class="card-subtitle">Preço do carro</h5>
+                        <p card-text>Desconto</p>
+                        <a href="#" class="btn btn-primary">Compre já</a>
+                    </div>
+                </div>
+    
+            </div>
+       
+
+        
+        <div class="col-4">
+
+            <div class="card text-bg-dark">
+                <div class="card-header">
+                    Promoção de carros
+                </div>
+                <img src="./images/GRANDE_002306_202407021752161326327669.jpg" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Nome do carro</h4>
+                    <h5 class="card-subtitle">Preço do carro</h5>
+                    <p card-text>Desconto</p>
+                    <a href="#" class="btn btn-primary">Compre já</a>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+   </div>
+
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
