@@ -1,9 +1,9 @@
 
 .carousel-item img {
-    max-height: 678px ;
+    max-height: 550px ;
     height: 100%;
-    
 }
+
 header{
     background-color:#353434;
     color: #fff;
@@ -16,6 +16,7 @@ header{
 
 .navbar-nav .nav-link{
     color: #fff;
+    
 }
 
 .container .carousel-fade{
@@ -24,9 +25,7 @@ header{
 
 
 
-.nav-pills{
-    padding-top: 30px;
-}
+
 .carousel-inner h2{
     padding: 20px;
     text-align: center;
@@ -42,7 +41,9 @@ header{
         font-size: 20px;
         padding: 0;
 }
+
 .nav-pills{
+    padding-top: 30px;
     text-align: center;
 }
 
@@ -53,6 +54,9 @@ header{
     .carousel-item img{
         max-height: 364px;
         height: 100%;
-
-}                
+}
+    .nav-pills{
+        padding-top: 30px;
+        text-align: center; 
+}
 }
